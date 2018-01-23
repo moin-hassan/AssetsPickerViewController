@@ -12,7 +12,7 @@ class PreSelectedAssetsController: CommonExampleController {
     
     override func pressedPick(_ sender: Any) {
         
-        let pickerConfig = AssetsPickerConfig()
+        let A = AssetsPickerConfig()
         pickerConfig.assetCellType = CustomAssetCell.classForCoder()
         pickerConfig.assetPortraitColumnCount = 3
         pickerConfig.assetLandscapeColumnCount = 5
