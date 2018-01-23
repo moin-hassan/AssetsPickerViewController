@@ -14,7 +14,7 @@ open class AssetsPickerConfig {
     // MARK: - Album Config
 
     /// Set selected album at initial load.
-    open var albumDefaultType: PHAssetCollectionSubtype = .Photos
+    open var albumDefaultType: PHAssetCollectionSubtype = .smartAlbumUserLibrary
     /// true: shows empty albums, false: hides empty albums
     open var albumIsShowEmptyAlbum: Bool = true
     /// true: shows "Hidden" album, false: hides "Hidden" album

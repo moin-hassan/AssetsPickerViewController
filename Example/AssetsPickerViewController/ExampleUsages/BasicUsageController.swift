@@ -13,6 +13,7 @@ class BasicUsageController: CommonExampleController {
     override func pressedPick(_ sender: Any) {
         let picker = AssetsPickerViewController()
         picker.pickerDelegate = self
+        //picker
         present(picker, animated: true, completion: nil)
     }
 }
